@@ -11,7 +11,7 @@ rndShape = 0.1;
 function setup() {
   p5.disableFriendlyErrors = true;
 	
-  createCanvas(1420, 800, WEBGL);
+  createCanvas(710, 400, WEBGL);
   
   setTimeout(function(){
 	webaudio_tooling_obj ();

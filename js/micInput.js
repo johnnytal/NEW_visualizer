@@ -48,7 +48,7 @@ function webaudio_tooling_obj () {
 
 	      microphone_stream.connect(script_processor_node);
 	
-	      gain_node.gain.value = 1;
+	      gain_node.gain.value = 0;
 	
 	      script_processor_fft_node = audioContext.createScriptProcessor(2048, 1, 1);
 	      script_processor_fft_node.connect(gain_node);
